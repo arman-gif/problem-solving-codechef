@@ -8,11 +8,10 @@ int main()
 	int x;
     cin >> x;
 
-    int sum = x * 31;
-    cout << sum << endl;
+    int ans = x * 31;
+    cout << ans << endl;
 
 	return 0;
 }
-
 
 

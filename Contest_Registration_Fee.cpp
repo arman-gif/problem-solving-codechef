@@ -5,20 +5,19 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-	long long x, y;
+	int x, y;
     cin >> x >> y;
-    long long sum = 100 * x;
 
-    if(y > x)
+    if(x < y)
     {
-        sum = sum + 150 * (y - x);
+        cout << 100 << endl;
     }
-
-    cout << sum << endl;
+    else
+    {
+        cout << 0 << endl;
+    }
 
 	return 0;
 }
-
-
 
 
